@@ -10,6 +10,7 @@
 #menu ul li a{  /*konkretajai vietai nonem*/
 	text-decoration: none;
 	color: #000; /*melns*/
+
 }
 #menu ul li{
 	list-style: none; /*aplisi nost no lista*/
