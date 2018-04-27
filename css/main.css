@@ -1,0 +1,71 @@
+.mainbox{
+	background-color: green;
+	width: 800px;
+	margin: 0px auto; /*lapas vidu*/
+}
+
+#menu{
+	background-color: orange;
+}
+#menu ul li a{  /*konkretajai vietai nonem*/
+	text-decoration: none;
+	color: #000; /*melns*/
+}
+#menu ul li{
+	list-style: none; /*aplisi nost no lista*/
+	display: inline; /*viens otram blakam*/
+}
+.leftside{
+	background-color: yellow;
+	width: 100px;
+	float:left; /*izkārtojums*/
+}
+.main{
+	background-color: purple;
+	width: 590px;
+	float:left;
+	padding: 5px;
+}
+img{
+    border-radius: 50%;
+    padding: 5px;
+    width: 50%;
+    float:center;
+}
+.rightside{
+	background-color: lightblue;
+	width: 100px;
+	float:left;
+}
+.footer{
+	background-color: blue;
+	clear: both; /*noņemt, lai neitekmējas no ieprieksseja izkārtojuma*/
+	text-align: center; /*centret footeri*/
+}
+
+@media screen and (max-width: 992px) { /*ar bracketu sākas*/
+  body {
+    background-color: #000;
+  }
+
+#menu ul li{
+	list-style-type: none;
+	display: block;
+	text-align: center;
+}
+.leftside, .rightside, .main, .footer{
+	float:none;
+	width:100%;
+	padding: 0px;
+}
+.mainbox {
+	width: 100%;
+}
+iframe{
+	width: 100%;
+    height: auto;
+
+}
+} /* ar bracketu beidzas*/
+/*Komentars */
+/*position vērtības fixed, absolute relative static*/
